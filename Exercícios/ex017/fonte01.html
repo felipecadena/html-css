@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, *px, pt, pc
+
+            Medidas relativas
+            *em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+
+            use em e px
+            */
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+        }
+
+        h1{
+            /* 
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            shorthand font - simplificar as 4 declarações acima em apenas uma
+            
+            - font-style, font-wieght, font-size, font-family*/
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, perferendis ab sed expedita magnam facere ipsam cum laudantium minima. Iusto ipsum voluptate veniam? Cupiditate dignissimos obcaecati velit! Quidem, ipsa earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolorum fuga repudiandae perferendis cumque ipsum veniam dicta quaerat! Blanditiis in assumenda veritatis corrupti explicabo sit perspiciatis accusantium maiores sunt dolor?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda soluta, unde ratione, velit voluptas temporibus totam vel nihil ipsam repellat enim quos? Delectus possimus perspiciatis, optio provident odit quis accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vel ullam ducimus laborum exercitationem odio dolor dolorem maiores laudantium ab! Non at blanditiis accusamus quaerat, error laborum expedita aut cumque!</p>
+</body>
+</html>
